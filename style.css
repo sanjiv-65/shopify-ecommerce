@@ -93,16 +93,36 @@ body {
     left: 0;
 }
 
+
+#header a {
+    background: none;
+    display: inline-block;
+    line-height: 0;
+}
+
+.logo {
+    height: 60px; /* Adjust to your preferred size */
+    width: auto;
+    display: block;
+    background: transparent;
+    mix-blend-mode: darken; /* Try 'multiply' or 'darken' */
+}
+
+
 #navbar {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#header a{
+    background: none;
+}
 #navbar li {
     list-style: none;
     margin: 0 20px;
     position: relative;
+;
 }
 
 
