@@ -11,3 +11,8 @@ if(bar){
     close.addEventListener('click', ()=>{
     nav.classList.remove('active');
     })}
+
+
+
+
+    
